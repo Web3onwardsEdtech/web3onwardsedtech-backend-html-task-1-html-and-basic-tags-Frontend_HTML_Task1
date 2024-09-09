@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test1</title>
+</head>
+<style>
+    body{
+        width:50%
+    }
+    #top{
+        display:flex;
+        background-color:blanchedalmond;
+        border-radius:10px;
+        padding:0px;
+        margin:0px;
+    }
+    .h4{
+        font-size: larger;
+        text-align: end;
+        font-weight: 100;
+    
+    }
+    .navbar_list{
+        list-style-type: none;
+    }
+    .nav{
+        background-color:white;
+        padding:10px;
+        border-radius:8px;
+        color:purple;
+        margin:20px;
+    }
+    #info{
+        border:2px solid black;
+        padding:10px;
+        margin-top:20px;
+    }
+    .cat-button{
+        background-color:rgb(115, 4, 129);
+        color:white;
+        padding:10px;
+        border:0px;
+        border-radius:8px;
+        margin-top:10px;
+        width:10rem;
+    }
+    .cat-image{
+        border-radius:12px;
+        margin-top:0px;
+        margin-bottom:10px;
+        width:75%;
+    }
+    .table{
+        border:1px solid black;
+        padding:10px;
+        background-color:bisque;
+        margin-top:10px;
+    }
+    .content{
+        background-color:white;
+    }
+    .lists{
+        background-color:aqua;
+        padding:10px;
+        margin-top:10px;
+    }
+    #ordered-lists{
+        background-color:rgb(205, 255, 228);
+    }
+</style>
+<body>
+    <section class="navbar" id="top">
+        <ul class="navbar_list">
+            <h4 class="navbar h4">Navbaar</h4>
+            <li class="nav"><a href="#home">Home</a></li>
+            <li class="nav"><a href="aboutme.html">About me</a></li>
+            <li class="nav"><a href="#settings">Settings</a></li>
+        </ul>
+    </section>
+<section id="info">
+    <div class="cat">
+        <h1 id="heading" style="color:blueviolet">
+            My Love for Cats
+        </h1>
+         <img class="cat-image" src="./images/cat-6463284_640.jpg" alt="Picture of an adorable cat"/><aside>Isn't he cute.</aside>
+         <h2 class="subheading">I <strong>love</strong> cats.<br/>They are the best animals in the world. even though they don't care, but we do!!
+        </h2><hr>
+         <p class="subheading para1">
+            Cats are the absolute best. I mean the very best thats all there is to say, and I know I am supposed to type a paragraph
+         </p>
+         <p class="subheading para2">
+            Cats are the absolute best. I mean the very best thats all there is to say, and I know I am supposed to type a paragraph
+        </p>
+     </div>
+</section>
+<button onclick="alert(Meow)" class="cat-button">Cats are the cutest</button>
+<section class="lists" id="unorderd-lists">
+    <div class="list">
+        <h3 class="h3"><i>My favourite websites:</i></h3>
+        <ul class="list bullets" id="unordered">
+            <li class="links"><a href="https://www.google.com" id="link1">www.google.com</a></li>
+            <li class="links"><a href="https://www.instagram.com" id="link2">www.instragram.com</a></li>
+            <li class="links"><a href="https://www.pinterest.com" id="link3">www.pinterest.com</a></li>
+        </ul>
+    </div>
+</section>
+<section class="lists" id="ordered-lists">
+    <div class="list">
+        <h3 class="h3"><i>Things I love the most:</i></h3>
+        <ol class="list numbers">
+            <li>Cats</li>
+            <li>Drawing</li>
+            <li>Biryani</li>
+        </ol>
+    </div>
+</section>
+<section class="table">
+    <div class="table content">
+        <table border="10px" rowpsan="4" colspan="2">
+            <h3>Table contents</h3>
+            <tr>
+                <th class="cats">Cats</th>
+                <th>Dogs</th>
+                <th>Other animals</th>
+            </tr>
+            <tr>
+                <td class="cats">
+                    Yes!the greatest.
+                </td>
+                <td class="dogs">
+                    Maybe!Idk
+                </td>
+                <td class="others">Nope, idk a rabbit?</td>
+            </tr>
+        </table>
+    </div>
+</section>
 
+
+    </div>
+</section>
+</body>
+</html>
